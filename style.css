@@ -39,12 +39,30 @@ nav a {
     text-align: center;
 }
 
+.hero2 {
+    background-color: #d2d5f5;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .hero-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #333;
     padding: 0 2rem;
+    margin: 100px;
+}
+
+.hero-container2 {
+    display: justify;
+    flex-direction: column; 
+    justify-content: center;
+    color: #333;
+    padding: 0;
     margin: 100px;
 }
 
@@ -61,6 +79,13 @@ nav a {
     border-style: solid;
 }
 
+.img_deg2 {
+    width: 30%;
+    height: 30%;
+    border-style: solid;
+    align-items: center;
+}
+
 .doing {
     display: flex;
     text-align: justify;
@@ -74,6 +99,12 @@ nav a {
     margin: 20px;
     padding: 0 2rem;
     
+}
+
+.music2 {
+    display: justify;
+    margin: 10px;
+    padding: 0 2rem;
 }
 
 .videos {
