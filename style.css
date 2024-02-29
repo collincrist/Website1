@@ -84,3 +84,11 @@ nav a {
     margin-top: 30px;
     border: solid;
 }
+
+.done{
+    display: flex;
+    text-align: justify;
+    padding: 0 2rem;
+    margin: 10px;
+    margin-right: 1px;
+}
