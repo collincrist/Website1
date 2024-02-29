@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    h2 {font-size: 15px;}
+    audio::-webkit-media-controls-panel {background-color:#d2d5f5;}
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    height: 60px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.logo {
+    color: #d2d5f5;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d2d5f5;
+    padding: 0 1.5rem;
+}
+
+.hero {
+    background-color: #d2d5f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #333;
+    padding: 0 2rem;
+    margin: 100px;
+}
+
+.hero-image-2 {
+    width: 30%;
+    height: 30%;
+    border: solid;
+}
+
+
+.img_deg {
+    width: 30%;
+    height: 30%;
+    border-style: solid;
+}
+
+.doing {
+    display: flex;
+    text-align: justify;
+    padding: 0 2rem;
+    margin: 20px;
+    margin-right: 500px;
+}
+
+.music {
+    display: justify;
+    margin: 20px;
+    padding: 0 2rem;
+    
+}
+
+.videos {
+    display: left;
+    width: 10%;
+    height: 10%;
+    margin: 5px;
+    margin-top: 30px;
+    border: solid;
+}
